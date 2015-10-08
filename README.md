@@ -9,7 +9,7 @@ This is a collection of my vimrc and associated configs.
 
 Download vimrc config:
 
-[.vimrc](https://github.com/)
+[.vimrc](https://raw.githubusercontent.com/f47h3r/vim_configs/master/vimrc)
 
 
 Install Vundle:
