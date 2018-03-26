@@ -102,6 +102,10 @@ Plugin 'Valloric/YouCompleteMe'     " YouCompleteMe
 Plugin 'jiangmiao/auto-pairs'       " AutoPairs (Closing Brackets)
 "Plugin 'Townk/vim-autoclose'        " AutoClose Parenthesis & Brackets
 
+" Linting Engine
+Plugin 'w0rp/ale'
+
+
 "Plugin ''   " Comment
 "Plugin ''   " Comment
 "Plugin ''   " Comment
@@ -123,6 +127,7 @@ set autoindent      "Keep indentation from previous line
 set smartindent     "Automatically inserts indentation in some cases
 set cindent         "Like smartindent, but stricter and more customisable
 
+let g:ycm_autoclose_preview_window_after_insertion = 1      "Remove function prototype when leave insert mode with YCM
 
 
 
